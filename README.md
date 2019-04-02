@@ -11,3 +11,5 @@ Firmwares:
 For BC66 you need BC66NBR01A04V01 or BC66NBR01A05V01 
 
 For M66 you need M66FAR01A12BT (other comming soon)
+
+Other examples comming soon....
