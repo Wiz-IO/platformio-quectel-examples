@@ -2,7 +2,7 @@
 
 [PLATFORM](https://github.com/Wiz-IO/platform-quectel)
 
-[FRAMEWOTK](https://github.com/Wiz-IO/framework-quectel)
+[FRAMEWORK](https://github.com/Wiz-IO/framework-quectel)
 
 [WIKI](https://github.com/Wiz-IO/platform-quectel/wiki/PLATFORM-QUECTEL)
 
