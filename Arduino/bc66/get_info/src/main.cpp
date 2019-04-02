@@ -12,7 +12,7 @@ void setup()
 {
   int t = millis();
   String imei, mcc_mnc, sim_imsi, sim_iccid, uid;
-  Dev.noSleep(); // disable PSM sleep
+  Dev.noSleep(); // disable PSM sleep, is enabled by default
 
   Serial.begin(115200);
   Serial.debug(); // enable debug for this port, DBG( work as printf )
@@ -58,7 +58,7 @@ void loop()
 }
 
 /** RESULT **************************************************************
- * 
+ 
     Arduino      BC66NBR01A04
     IMEI         867997030026081
     UID          301C9C77F16D77679784E781D57CF751
