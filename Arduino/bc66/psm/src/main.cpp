@@ -8,13 +8,13 @@
   AT+QSPCHSC=1  
 */
 
-int counter __attribute__((section(".sram"))); // value in SRAM, max 256 bytes
+int counter __attribute__((section(".sram"))); // value in SRAM, MAXIMUM 256 bytes
 
 void setup()
 {
   if (Ql_GetPowerOnReason() != QL_DEEP_SLEEP)
   {
-    counter = 1; // init SRAM values
+    counter = 1; // init SRAM values on RESET
   }
 
   int t = millis();
