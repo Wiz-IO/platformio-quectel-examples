@@ -20,7 +20,6 @@ void setup()
   int t = millis();
   String imei;
   Serial.begin(115200);
-  Serial.debug(); // enable debug for this port, DBG( work as printf )
   Serial.printf("Arduino %s\n", Dev.getVersion());
   Serial.printf("Wakeup [%d] from %s\n", counter++, Ql_GetPowerOnReason() == 1 ? "Sleep" : "Reset");
   Dev.getImei(imei);
