@@ -4,7 +4,7 @@
 #include "certs.h"
 LMQTTSecure mqtt;
 #define HOST "mqtt.eclipse.org"
-#define MQTT "https://mqtt.eclipse.org:8883/"
+#define MQTT "https://" HOST ":8883/"
 
 void on_urc_response(ST_MSG *m)
 {
