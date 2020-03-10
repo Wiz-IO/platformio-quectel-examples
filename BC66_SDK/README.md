@@ -1,5 +1,6 @@
-EXAMPLES Quectel BC66
+Quectel BC66
 
-notes: 
-* Arduino examples not work with old SDK
+Notes: 
 * OpenCPU examples  from SDK v1.5
+* Arduino examples not work with old SDK
+
