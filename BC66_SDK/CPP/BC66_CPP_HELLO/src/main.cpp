@@ -5,7 +5,7 @@ UART u;
 void proc_main_task(s32 taskId)
 {
     ST_MSG m;
-    os_init();          // init
+    os_init();          // init CPP
     u = uart_create(0); // for port 0
     uart_begin(u, 0);   // open uart
     uart_retarget(u);   // enable printf
