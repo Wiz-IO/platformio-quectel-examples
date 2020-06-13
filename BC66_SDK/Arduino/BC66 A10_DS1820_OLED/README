@@ -13,5 +13,7 @@ sensor pull-up must be ~1mA ( 3.3v - 3.3k )
 
 serial port can be changed of dallas.h
 
+OLED: any I2C SSD1306
+
 Screenshot:
 https://pbs.twimg.com/media/EZh7iu9WAAUjG9j?format=jpg&name=large
