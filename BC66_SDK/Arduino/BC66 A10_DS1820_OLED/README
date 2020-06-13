@@ -18,4 +18,6 @@ OLED: any I2C SSD1306
 Screenshot:
 https://pbs.twimg.com/media/EZh7iu9WAAUjG9j?format=jpg&name=large
 
-Note: The example is not optimized... just example
+Notes: 
+The example is not optimized... just example
+Do not seartch devices ID - too long time and the dog growls...
