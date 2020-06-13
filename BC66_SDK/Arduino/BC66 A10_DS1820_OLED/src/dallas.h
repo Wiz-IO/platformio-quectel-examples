@@ -148,7 +148,8 @@ typedef struct
 #define UART1 ((UART_REGISTER_T *)(UART1_BASE))
 #define UART2 ((UART_REGISTER_T *)(UART2_BASE))
 #define UART3 ((UART_REGISTER_T *)(UART3_BASE))
-#define SERIAL Serial1
+
+#define SERIAL Serial1 // <----- Serial1 is UART1_BASE, see constructor
 
 #define OW_MATCH_ROM 0x55
 #define OW_SKIP_ROM 0xcc
@@ -226,7 +227,7 @@ private:
 public:
     OWU()
     {
-        uart_reg = (UART_REGISTER_T *)UART1_BASE; // <--- Serial1
+        uart_reg = (UART_REGISTER_T *)UART1_BASE; // <--------------- for Serial1
     }
     ~OWU() {}
 
