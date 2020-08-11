@@ -23,7 +23,6 @@ void setup()
   printf("Arduino Firmware: %s 2020 Georgi Angelov\n", Dev.version());
   pinMode(LED, OUTPUT); // PINNAME_NETLIGHT, blink
 #ifdef DALLAS
-  /* GPIO @ 3.3v or VBAT, sensor pull-up ~3.3k */
   pinMode(DALLAS_A_PIN, INPUT);
   while ((res = DS18x20_Init(pDS18x20, DALLAS_M_PIN)))
   {
