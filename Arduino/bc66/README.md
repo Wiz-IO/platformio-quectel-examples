@@ -4,4 +4,4 @@ Examples for
 
 FOR NEW BC66 PLATFORM VERSION [EXAMPLES IS HERE](https://github.com/Wiz-IO/platformio-quectel-examples/tree/master/BC66_SDK)
 
-old examples not work with new version
+old examples for BC66 not work with new version
